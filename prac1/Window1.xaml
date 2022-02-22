@@ -1,0 +1,25 @@
+﻿<Window x:Class="prac1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prac1"
+        mc:Ignorable="d"
+        Title="Window1" Height="345" Width="404" WindowStyle="None">
+    <Grid Background="#FF85E6E6" Height="345" VerticalAlignment="Center">
+        <TextBlock HorizontalAlignment="Center" Height="50" Margin="0,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="24" Foreground="White"><Run Language="uk-ua" Text="РЕЖИМ НАВЧАННЯ"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="90" Margin="26,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="287" Foreground="White" FontSize="20"><Run Text="Кодове слово: длагнитор"/><LineBreak/><Run Text="Кількість введених символів:"/><Run Language="ru-ru" Text=" 9"/><LineBreak/><Run Text="Поле для введення:"/></TextBlock>
+        <TextBox x:Name="BoxForCodeWord" HorizontalAlignment="Left" Height="32" Margin="26,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" FontSize="16" TextChanged="BoxChengeFun"/>
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="26,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="20" Foreground="White"><Run Language="ru-ru" Text="К"/><Run Language="uk-ua" Text="ількість спроб"/></TextBlock>
+        <ComboBox x:Name="NumAttempts" HorizontalAlignment="Left" Height="26" Margin="192,205,0,0" VerticalAlignment="Top" Width="34">
+            <ListBoxItem Content="3" FontSize="14"/>
+            <ListBoxItem Content="4" FontSize="14"/>
+            <ListBoxItem Content="5" FontSize="14"/>
+            <ListBoxItem Content="6" FontSize="14"/>
+            <ListBoxItem Content="7" FontSize="14"/>
+        </ComboBox>
+        <Button Content="Вихід до меню" HorizontalAlignment="Left" Height="39" Margin="255,243,0,0" VerticalAlignment="Top" Width="124" Background="White" Foreground="#FF85E6E6" BorderBrush="Black" Click="Button_Click"/>
+        <Button Content="Зберегти" HorizontalAlignment="Left" Height="32" Margin="266,165,0,0" VerticalAlignment="Top" Width="61" Foreground="#FF85E6E6" Background="White" Click="SaveWord"/>
+
+    </Grid>
+</Window>

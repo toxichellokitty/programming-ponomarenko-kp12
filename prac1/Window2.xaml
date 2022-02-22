@@ -1,0 +1,26 @@
+﻿<Window x:Class="prac1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prac1"
+        mc:Ignorable="d"
+        Title="Window2" Height="314" Width="719" WindowStyle="None">
+    <Grid Background="#FFC0D6FF">
+        <TextBlock HorizontalAlignment="Center" Height="35" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Foreground="White" FontSize="24"><Run Language="uk-ua" Text="РЕЖИМ ПЕРЕВІРКИ"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="97" Margin="25,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="Black" FontSize="22"><Run Text="Кодове слово: длагнитор"/><LineBreak/><Run Text="К-сть спроб: "/><LineBreak/><Run Text="К-сть введених символів: 9"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="BoxForCodeWord" HorizontalAlignment="Left" Height="41" Margin="60,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" FontSize="20" TextChanged="BoxChengeFun"/>
+        <Button Content="Вихід до меню" HorizontalAlignment="Left" Height="39" Margin="60,247,0,0" VerticalAlignment="Top" Width="162" Background="White" Foreground="#FFC0D6FF" BorderBrush="Black" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="43" Margin="386,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Foreground="White" FontSize="20"><Run Text="Статистичний аналіз"/><LineBreak/><Run Text=": "/></TextBlock>
+        <Button Content="Зберегти" HorizontalAlignment="Left" Height="32" Margin="274,250,0,0" VerticalAlignment="Top" Width="61" Foreground="#FFC0D6FF" Background="White" Click="SaveWord"/>
+        <TextBlock x:Name="TextBoxForFT" HorizontalAlignment="Left" Height="39" Margin="386,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="287" Foreground="White" FontSize="20"><Run/><LineBreak/><Run/></TextBlock>
+        <ComboBox x:Name="NumAttempts" HorizontalAlignment="Left" Height="26" Margin="304,101,0,0" VerticalAlignment="Top" Width="34">
+            <ListBoxItem Content="3" FontSize="14"/>
+            <ListBoxItem Content="4" FontSize="14"/>
+            <ListBoxItem Content="5" FontSize="14"/>
+            <ListBoxItem Content="6" FontSize="14"/>
+            <ListBoxItem Content="7" FontSize="14"/>
+        </ComboBox>
+        <TextBlock x:Name="TextBoxForP" HorizontalAlignment="Left" Height="35" Margin="386,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="20" Foreground="White"><Run/><LineBreak/><Run/></TextBlock>
+    </Grid>
+</Window>
