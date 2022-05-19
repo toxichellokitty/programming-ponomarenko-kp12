@@ -1,0 +1,21 @@
+﻿<Window x:Class="db_registration.WindowCheckVisit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db_registration"
+        mc:Ignorable="d"
+        Title="WindowCheckVisit" Height="450" Width="800">
+    <Grid Background="#FF8082E6">
+        <TextBlock HorizontalAlignment="Left" Height="35" Margin="31,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="387" FontSize="18" Foreground="White" Text="Введіть номер візиту, щоб переглянути його:"/>
+        <TextBox x:Name="boxID" HorizontalAlignment="Left" Height="35" Margin="423,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" BorderBrush="#FFBB6AC6" FontSize="18" Background="#FFEAE286"/>
+        <TextBlock HorizontalAlignment="Left" Height="252" Margin="31,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="16" Foreground="White"><Run Text="Ім'я"/><Run Text=" пацієнта"/><Run Text=": "/><LineBreak/><Run Text="Прізвище"/><Run Text=" пацієнта"/><Run Text=":"/><LineBreak/><Run Text="Дата"/><Run Text=":"/><LineBreak/><Run Text="Ім'я лікаря:"/><LineBreak/><Run Text="Прізвище лікаря"/><Run Text=":"/><LineBreak/><Run Text="Діагноз"/><Run Text=":"/><LineBreak/><Run Text="Дата відкриття лікарняного"/><Run Text=":"/><LineBreak/><Run Text="Дата закриття лікарняного"/><Run Text=":"/><LineBreak/><Run Text="Скарги"/><Run Text=":"/><LineBreak/><Run Text="Призначення:"/><LineBreak/><Run Text="Нотатки:"/></TextBlock>
+        <TextBlock x:Name="InfoPat" HorizontalAlignment="Left" Height="245" Margin="289,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="483" Foreground="White" FontSize="16"/>
+        <Button Content="" HorizontalAlignment="Left" Height="37" Margin="31,362,0,0" VerticalAlignment="Top" Width="210" Foreground="#FFC64383" Background="#FFEAE286" FontSize="16" Click="Button_Click"/>
+        <Button Content="Пошук" HorizontalAlignment="Left" Height="35" Margin="592,27,0,0" VerticalAlignment="Top" Width="85" Foreground="White" Background="#FFC64383" FontSize="16" Click="Button_Click_2"/>
+        <Button Content="Редагувати дані" HorizontalAlignment="Left" Height="37" Margin="546,362,0,0" VerticalAlignment="Top" Width="210" Foreground="#FFC64383" Background="#FFEAE286" FontSize="16" Click="Button_Click_1"/>
+        <Button Content="Повернутися до меню" HorizontalAlignment="Left" Height="40" Margin="312,359,0,0" VerticalAlignment="Top" Width="174" Background="#FFEAE286" Foreground="#FFC64383" FontSize="16" Click="Button_Click_menu" BorderBrush="#FF707070"/>
+        <Button Content="Очистити" HorizontalAlignment="Left" Height="35" Margin="699,27,0,0" VerticalAlignment="Top" Width="73" Background="#FFC64383" BorderBrush="#FF707070" Foreground="White" Click="button_click_clear" FontSize="14"/>
+
+    </Grid>
+</Window>

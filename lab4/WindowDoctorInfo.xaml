@@ -1,0 +1,35 @@
+﻿<Window x:Class="db_registration.WindowDoctorInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db_registration"
+        mc:Ignorable="d"
+        Title="WindowDoctorInfo" Height="507" Width="800">
+    <Grid Background="#FFCC3838" Margin="0,0,0,-6">
+        <TextBlock HorizontalAlignment="Left" Height="53" Margin="31,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="507" FontSize="18" Foreground="White"><Run Text="Для отримання "/><Run Text="повної інформації про "/><Run Language="ru-ru" Text="л"/><Run Language="uk-ua" Text="ікаря"/><Run Text=" введіть "/><Run Language="uk-ua" Text="номер його сертифікації"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="boxID" HorizontalAlignment="Left" Height="30" Margin="543,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" BorderBrush="White" FontSize="18" Background="#FFFFE7E7"/>
+        <TextBlock HorizontalAlignment="Left" Height="121" Margin="31,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" FontSize="16" Foreground="White"><Run Text="Ім'я: "/><LineBreak/><Run Text="Прізвище:"/><LineBreak/><Run Language="uk-ua" Text="Спеціалізація:"/><LineBreak/><Run Language="uk-ua" Text="Кількість прийнятих пацієнтів за останній календарний місяць:"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Height="29" Margin="0,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" FontSize="18" Foreground="White"><Run Language="uk-ua" Text="РОЗКЛАД"/></TextBlock>
+        <GroupBox Header="Вівторок" HorizontalAlignment="Left" Height="26" Margin="138,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <GroupBox Header="Неділя" HorizontalAlignment="Left" Height="26" Margin="673,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <GroupBox Header="Субота" HorizontalAlignment="Left" Height="26" Margin="566,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <GroupBox Header="Понеділок" HorizontalAlignment="Left" Height="26" Margin="31,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <GroupBox Header="П'ятниця" HorizontalAlignment="Left" Height="26" Margin="459,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <GroupBox Header="Четвер" HorizontalAlignment="Left" Height="26" Margin="352,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <GroupBox Header="Середа" HorizontalAlignment="Left" Height="26" Margin="245,292,0,0" VerticalAlignment="Top" Width="102" Foreground="White"/>
+        <TextBlock x:Name="InfoDoc" HorizontalAlignment="Left" Height="108" Margin="294,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="461" Foreground="White" FontSize="16"/>
+        <Button Content="Пошук" HorizontalAlignment="Left" Height="34" Margin="692,70,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click" Background="#FFEFC5CD" BorderBrush="White" Foreground="White"/>
+        <TextBlock x:Name="day2" HorizontalAlignment="Left" Height="50" Margin="138,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <TextBlock x:Name="day7" HorizontalAlignment="Left" Height="50" Margin="673,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <TextBlock x:Name="day6" HorizontalAlignment="Left" Height="50" Margin="566,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <TextBlock x:Name="day5" HorizontalAlignment="Left" Height="50" Margin="459,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <TextBlock x:Name="day4" HorizontalAlignment="Left" Height="50" Margin="353,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <TextBlock x:Name="day3" HorizontalAlignment="Left" Height="50" Margin="245,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <TextBlock x:Name="day1" HorizontalAlignment="Left" Height="50" Margin="31,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" FontSize="16" Foreground="White" Text="-"/>
+        <Button Content="Повернутися до меню" HorizontalAlignment="Left" Height="56" Margin="48,401,0,0" VerticalAlignment="Top" Width="174" Background="#FFE19999" Foreground="White" FontSize="16" Click="Button_Click_menu" BorderBrush="#FFFCC4C4"/>
+        <Button Content="Додати/редагувати&#xD;&#xA;       дані лікаря" HorizontalAlignment="Left" Height="56" Margin="245,401,0,0" VerticalAlignment="Top" Width="174" Background="#FFE19999" Foreground="White" FontSize="16" Click="Button_Click_adddoc" BorderBrush="#FFFCC4C4"/>
+        <Button Content="Очистити" HorizontalAlignment="Left" Height="34" Margin="595,70,0,0" VerticalAlignment="Top" Width="73" Background="#FFEFC5CD" BorderBrush="White" Foreground="White" Click="button_click_clear"/>
+
+    </Grid>
+</Window>

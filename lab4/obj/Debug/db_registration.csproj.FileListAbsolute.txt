@@ -1,0 +1,62 @@
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\db_registration.csprojAssemblyReference.cache
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\MainWindow.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\WindowAddDoctor.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\WindowAddPatient.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\WindowDoctorInfo.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\WindowFillSchedule.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\WindowPatientInfo.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\App.g.cs
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\db_registration_MarkupCompile.cache
+C:\Users\4labs\OneDrive\Рабочий стол\db_registration\obj\Debug\db_registration_MarkupCompile.lref
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.csproj.AssemblyReference.cache
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\MainWindow.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowAddDoctor.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowAddPatient.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowDoctorInfo.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowFillSchedule.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowPatientInfo.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\App.g.cs
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration_MarkupCompile.cache
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration_MarkupCompile.lref
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\bin\Debug\db_registration.exe.config
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\bin\Debug\db_registration.exe
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\bin\Debug\db_registration.pdb
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\MainWindow.baml
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowAddDoctor.baml
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowAddPatient.baml
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowDoctorInfo.baml
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowFillSchedule.baml
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\WindowPatientInfo.baml
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.g.resources
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.Properties.Resources.resources
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.csproj.GenerateResource.cache
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.csproj.CoreCompileInputs.cache
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.exe
+C:\Users\vladi\Downloads\Telegram Desktop\db_registration\obj\Debug\db_registration.pdb
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\bin\Debug\db_registration.exe.config
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\bin\Debug\db_registration.exe
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\bin\Debug\db_registration.pdb
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\MainWindow.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowAddDoctor.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowAddPatient.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowDoctorInfo.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowFillSchedule.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowPatientInfo.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\App.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration_MarkupCompile.cache
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration_MarkupCompile.lref
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\MainWindow.baml
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowAddDoctor.baml
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowAddPatient.baml
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowDoctorInfo.baml
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowFillSchedule.baml
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowPatientInfo.baml
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.g.resources
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.Properties.Resources.resources
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.csproj.GenerateResource.cache
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.exe
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\db_registration.pdb
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowCheckVisit.g.cs
+C:\Users\vladi\OneDrive\Документи\1 курс 2 семестр\оп\курсова\db_registration\obj\Debug\WindowCheckVisit.baml

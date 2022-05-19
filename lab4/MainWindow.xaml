@@ -1,0 +1,28 @@
+﻿<Window x:Class="db_registration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db_registration"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="569" Background="#FF3A54E8">
+    <Grid HorizontalAlignment="Center" Height="440" VerticalAlignment="Top" Width="569" Background="#FF00009C">
+        <Grid.CacheMode>
+            <BitmapCache/>
+        </Grid.CacheMode>
+        <Grid.BindingGroup>
+            <BindingGroup/>
+        </Grid.BindingGroup>
+        <Grid.ContextMenu>
+            <ContextMenu/>
+        </Grid.ContextMenu>
+        <TextBlock HorizontalAlignment="Left" Height="56" Margin="299,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Foreground="White" FontSize="20" FontFamily="Verdana"><Run Language="uk-ua" Text="Перевірити інформацію"/></TextBlock>
+        <Button Content="лікарів" HorizontalAlignment="Left" Height="50" Margin="85,0,0,0" VerticalAlignment="Center" Width="132" BorderBrush="#FF3A54E8" Background="#FF448AFF" Foreground="White" FontSize="16" Click="Button_Click"/>
+        <Button Content="пацієнтів" HorizontalAlignment="Left" Height="50" Margin="85,298,0,0" VerticalAlignment="Top" Width="132" BorderBrush="#FF3A54E8" Background="#FF448AFF" Foreground="White" FontSize="16" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Height="43" Margin="66,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Foreground="White" FontSize="20" FontFamily="Verdana"><Run Language="uk-ua" Text="Редагувати дані"/></TextBlock>
+        <Button Content="лікарів" HorizontalAlignment="Left" Height="50" Margin="357,0,0,0" VerticalAlignment="Center" Width="132" BorderBrush="#FF3A54E8" Background="#FF448AFF" Foreground="White" FontSize="16" Click="Button_Click_2"/>
+        <Button Content="пацієнтів" HorizontalAlignment="Left" Height="50" Margin="357,298,0,0" VerticalAlignment="Top" Width="132" BorderBrush="#FF3A54E8" Background="#FF448AFF" Foreground="White" FontSize="16" Click="Button_Click_3"/>
+        <TextBlock HorizontalAlignment="Center" Height="49" Margin="0,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" Foreground="White" FontSize="24" FontFamily="Poor Richard"><Run Language="uk-ua" Text="РЕЄСТРАТУРА"/></TextBlock>
+        <Button Content="Вихід" HorizontalAlignment="Left" Height="29" Margin="251,372,0,0" VerticalAlignment="Top" Width="76" Background="#FFD82929" BorderBrush="#FFFFBABA" Foreground="White" Click="Button_Click_4"/>
+    </Grid>
+</Window>
