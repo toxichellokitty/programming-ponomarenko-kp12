@@ -1,0 +1,27 @@
+﻿<Window x:Class="db_registration.WindowAddDoctor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db_registration"
+        mc:Ignorable="d"
+        Title="WindowAddDoctor" Height="415" Width="800">
+    <Grid x:Name="myGrid" Background="#FF4D95BA" Initialized="Grid_Initialized">
+        <TextBlock HorizontalAlignment="Left" Height="27" Margin="10,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="448" FontSize="18" Foreground="White"><Run Text="Введіть ID"/><Run Text=" "/><Run Language="ru-ru" Text="л"/><Run Language="uk-ua" Text="ікаря"/><Run Text=", щоб"/><Run Text=" "/><Run Text="змінити"/><Run Text="/"/><Run Text="видалити"/><Run Text=" його дані:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="148" Margin="33,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="22" Foreground="White"><Run Text="Ім'я: "/><LineBreak/><Run Text="Прізвище:"/><LineBreak/><Run Text="Спеціалізація:"/><LineBreak/><Run Text="Дата народження:"/><LineBreak/><Run Text="Працю"/><Run Text="є з"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="10,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" FontSize="14" Foreground="White"><Run Text="Залиште це поле пустим, якщо хочете додати "/><Run Language="uk-ua" Text="лікаря"/><Run Text=" у базу."/></TextBlock>
+        <TextBox x:Name="pAge" HorizontalAlignment="Left" Height="29" Margin="325,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434"/>
+        <TextBox x:Name="pSurname" HorizontalAlignment="Left" Height="29" Margin="325,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434"/>
+        <TextBox x:Name="pName" HorizontalAlignment="Left" Height="29" Margin="325,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434"/>
+        <Button Content="Додати/змінити" HorizontalAlignment="Left" Height="40" Margin="504,308,0,0" VerticalAlignment="Top" Width="124" Background="#FF99E1AE" Foreground="White" FontSize="16" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Height="27" Margin="19,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" FontSize="18" Foreground="White"><Run Text="Ном"/><Run Text="е"/><Run Text="р"/><Run Text=" "/><Run Language="uk-ua" Text="сертифікації"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="27" Margin="19,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" FontSize="14" Foreground="White"><Run Text="Якщо "/><Run Language="uk-ua" Text="лікаря"/><Run Text=" тільки додають до бази."/></TextBlock>
+        <Button Content="Повернутися до меню" HorizontalAlignment="Left" Height="40" Margin="44,308,0,0" VerticalAlignment="Top" Width="174" Background="#FF99E1AE" Foreground="White" FontSize="16" Click="Button_Click"/>
+        <Button Content="Заповнити розклад" HorizontalAlignment="Left" Height="40" Margin="290,308,0,0" VerticalAlignment="Top" Width="156" Background="#FF99E1AE" Foreground="White" FontSize="16"/>
+        <Button Content="Пошук" HorizontalAlignment="Left" Height="40" Margin="676,24,0,0" VerticalAlignment="Top" Width="98" Background="#FF99E1AE" Foreground="White" FontSize="16" Click="Button_Click_2"/>
+        <ComboBox x:Name="DoctorList" HorizontalAlignment="Left" Height="38" Margin="447,24,0,0" VerticalAlignment="Top" Width="213" IsEditable="True"/>
+        <ComboBox x:Name="pSpeciality" HorizontalAlignment="Left" Height="29" Margin="325,143,0,0" VerticalAlignment="Top" Width="434"/>
+        <TextBox x:Name="pFirst" HorizontalAlignment="Left" Height="29" Margin="325,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434"/>
+
+    </Grid>
+</Window>

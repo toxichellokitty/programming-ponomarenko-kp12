@@ -1,0 +1,25 @@
+﻿<Window x:Class="db_registration.WindowAddVisit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:db_registration"
+        mc:Ignorable="d"
+        Title="WindowAddVisit" Height="450" Width="800">
+    <Grid Background="#FFBD8585">
+        <TextBlock HorizontalAlignment="Left" Height="311" Margin="31,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="20" Foreground="White"><Run Text="Оберіть "/><Run Text="пацієнта"/><Run Text=":"/><LineBreak/><Run Text="Оберіть "/><Run Text="лікаря"/><Run Text=":"/><LineBreak/><Run Text="Діагноз"/><Run Text=":"/><LineBreak/><Run Text="Дата відкриття лікарняного"/><Run Text=":"/><LineBreak/><Run Text="Дата закриття лікарняного"/><Run Text=":"/><LineBreak/><Run Text="Скарги"/><Run Text=":"/><LineBreak/><Run Text="Призначення:"/><LineBreak/><Run Text="Нотатки:"/></TextBlock>
+        <ComboBox x:Name="PatientList" HorizontalAlignment="Left" Height="27" Margin="294,27,0,0" VerticalAlignment="Top" Width="278" Background="#FFEAE286" BorderBrush="#FFC68890" IsEditable="True"/>
+        <ComboBox x:Name="DoctorList" HorizontalAlignment="Left" Height="27" Margin="294,54,0,0" VerticalAlignment="Top" Width="278" IsEditable="True"/>
+        <ComboBox x:Name="DiagnosisList" HorizontalAlignment="Left" Height="27" Margin="294,78,0,0" VerticalAlignment="Top" Width="278" IsEditable="True"/>
+        <TextBox x:Name="vOpen" HorizontalAlignment="Left" Height="27" Margin="294,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" OpacityMask="Black"/>
+        <TextBox x:Name="vClose" HorizontalAlignment="Left" Height="27" Margin="294,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278"/>
+        <TextBox x:Name="vComplaints" HorizontalAlignment="Left" Height="27" Margin="294,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278"/>
+        <TextBox x:Name="vPrescription" HorizontalAlignment="Left" Height="27" Margin="294,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278"/>
+        <TextBox x:Name="vNotice" HorizontalAlignment="Left" Height="27" Margin="294,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278"/>
+        <Button Content="Повернутися до меню" HorizontalAlignment="Left" Height="40" Margin="31,356,0,0" VerticalAlignment="Top" Width="174" Background="#FFEAE286" Foreground="#FFC64383" FontSize="16" Click="Button_Click_menu" BorderBrush="#FF707070"/>
+        <Button Content="Додати/змінити" HorizontalAlignment="Left" Height="40" Margin="659,27,0,0" VerticalAlignment="Top" Width="124" Background="#FF99E1AE" Foreground="White" FontSize="16" Click="Button_Click_1"/>
+        <DatePicker x:Name="Sick1" HorizontalAlignment="Left" Margin="624,107,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="Sick2" HorizontalAlignment="Left" Height="22" Margin="624,137,0,0" VerticalAlignment="Top" Width="103"/>
+
+    </Grid>
+</Window>

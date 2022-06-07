@@ -1,0 +1,20 @@
+﻿db_registration
+
+
+winexe
+C#
+.cs
+C:\Users\vladi\OneDrive\Рабочий стол\db_registration\obj\Debug\
+db_registration
+none
+false
+DEBUG;TRACE
+C:\Users\vladi\OneDrive\Рабочий стол\db_registration\App.xaml
+9-2103539900
+
+14-1709881228
+131569487696
+MainWindow.xaml;WindowAddDoctor.xaml;WindowAddPatient.xaml;WindowAddVisit.xaml;WindowCheckVisit.xaml;WindowDoctorInfo.xaml;WindowFillSchedule.xaml;WindowPatientInfo.xaml;WindowTimetable.xaml;
+
+True
+
